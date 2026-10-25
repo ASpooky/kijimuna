@@ -3,6 +3,7 @@
 
 use core::arch::global_asm;
 
+// ref: https://sourceware.org/binutils/docs/as/Pseudo-Ops.html
 global_asm!(
     ".section .text._start",
     ".global _start",

@@ -1,5 +1,7 @@
 ENTRY(_start)
 
+ /* ref: https://sourceware.org/binutils/docs/ld/Scripts.html */
+
 SECTIONS
 {
     . = 0x80000;
